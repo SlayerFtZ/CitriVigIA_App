@@ -61,6 +61,7 @@ dependencies:
   firebase_messaging: ^17.0.0
   syncfusion_flutter_pdfviewer: ^35.1.40+1
   easy_image_viewer: ^1.5.1
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -118,3 +119,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_launcher_icons: 
+  android: true 
+  ios: true 
+  image_path: "assets/images/icon.png" # full icon (iOS and old Android) 
+  min_sdk_android: 21 
+  adaptive_icon_background: "#F5F6F7" # adaptive icon background color 
+  adaptive_icon_foreground: "assets/images/splash_square.png" # transparent logo 
+  remove_alpha_ios: true # iOS does not support transparency
